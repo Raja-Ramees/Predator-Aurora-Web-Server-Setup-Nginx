@@ -57,7 +57,7 @@
   </a>
 </p>
 
-<h1 align="center"> INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+<h1 align="center"> INSTALLATION · Nginx Webserver · UBUNTU</h1>
 
 <p align="center">
   <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
