@@ -1,15 +1,90 @@
 # 🖥️ Predator Aurora Web Server (Ubuntu 24.04 – Predator Server)
 
-![Predator Aurora Banner](https://upload.wikimedia.org/wikipedia/commons/2/2e/Linux_logo.png)
+<p align="center">
+  <img src="https://github.com/Raja-Ramees.png" width="120">
+</p>
+
+<h2 align="center">Raja Ramees</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-ramees-804a7b262">
+    <img src="https://img.shields.io/badge/LinkedIn-Raja%20Ramees-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OS-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+</p>
+## 🌍 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-ramees-804a7b262">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="mailto:yourmail@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+  </a>
+</p>
 
 > Predator Aurora is a **high-performance web service** running on Ubuntu 24.04 using **Nginx** as a reverse proxy.  
 > This README provides a complete **installation, configuration, and usage guide** with visuals, tips, and best practices.
 
 ---
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Expert-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Docker-Advanced-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Kubernetes-Hands--On-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black">
+</p>
 
 ## 🔗 About the Author
+- ## 🏆 Certifications
 
-![Raja Ramees](https://raw.githubusercontent.com/yourusername/yourrepo/main/yourimage.png)
+- ✅ AWS Solutions Architect  
+- ✅ CompTIA Linux+  
+- ✅ DevOps Certified  
+- ✅ Docker & Kubernetes
+<p align="center">
+  <img src="https://raw.githubusercontent.com/docker/docs/main/static/img/docker-logo-white.png" width="420" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-ramees-804a7b262" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Raja%20Ramees-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
+
+<h1 align="center"> INSTALLATION · DOCKER DESKTOP · UBUNTU</h1>
+
+<p align="center">
+  <b>⚡ One Guide · One Flow · Zero Confusion ⚡</b><br/>
+  <i>Built for beginners, trusted by professionals</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-FF6C37?logo=ubuntu&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-Desktop-2496ED?logo=docker&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Setup-Type%20%7C%20GUI%20+%20CLI-0db7ed?style=for-the-badge" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg" width="300" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-orange?logo=ubuntu&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-Desktop-blue?logo=docker&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20Friendly-green?style=for-the-badge" />
+</p>
+
+---
+
+![Raja Ramees](www.linkedin.com/in/raja-ramees-804a7b262)
 
 **Raja Ramees**  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/raja-ramees-804a7b262/)  
