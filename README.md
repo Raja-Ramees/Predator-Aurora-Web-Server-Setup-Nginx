@@ -1,1 +1,178 @@
-# Predator-Aurora-Web-Server-Setup-Nginx
+# 🖥️ Predator Aurora Web Server (Ubuntu 24.04 – Predator Server)
+
+![Predator Aurora Banner](https://upload.wikimedia.org/wikipedia/commons/2/2e/Linux_logo.png)
+
+> Predator Aurora is a **high-performance web service** running on Ubuntu 24.04 using **Nginx** as a reverse proxy.  
+> This README provides a complete **installation, configuration, and usage guide** with visuals, tips, and best practices.
+
+---
+
+## 🔗 About the Author
+
+![Raja Ramees](https://raw.githubusercontent.com/yourusername/yourrepo/main/yourimage.png)
+
+**Raja Ramees**  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/raja-ramees-804a7b262/)  
+- 🌐 [Company Website](https://readyairesources.com/)  
+
+---
+
+## 🖥️ System Requirements
+
+- Ubuntu 24.04 LTS (Server or Desktop)  
+- Root or sudo privileges  
+- Nginx installed  
+- Predator Aurora project files  
+
+![Ubuntu Logo](https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png)  
+![Nginx Logo](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)  
+![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.png)
+
+---
+
+## 1️⃣ Install & Enable Nginx
+
+💡 **Tip:** Always update packages before installation.
+
+```bash
+# Update system packages
+sudo apt update
+
+# Install Nginx
+sudo apt install nginx -y
+
+# Enable Nginx to start on boot
+sudo systemctl enable nginx
+
+# Start Nginx service
+sudo systemctl start nginx
+
+# Check Nginx status
+systemctl status nginx.service
+✅ Expected output: Active: active (running)
+
+2️⃣ Configure Nginx for Predator Aurora
+
+1️⃣ Create a site configuration:
+
+sudo nano /etc/nginx/sites-available/predator
+
+
+2️⃣ Example configuration:
+
+server {
+    listen 80;
+    server_name _;
+
+    root /home/raja/predator/wgdashboard;
+    index index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+
+3️⃣ Enable site & remove default:
+
+sudo ln -s /etc/nginx/sites-available/predator /etc/nginx/sites-enabled/
+sudo rm -f /etc/nginx/sites-enabled/default
+
+
+4️⃣ Test configuration & reload:
+
+sudo nginx -t
+sudo systemctl reload nginx
+
+3️⃣ Test Predator Aurora
+curl http://127.0.0.1
+
+
+Expected response:
+
+{"status":"Predator Aurora running"}
+
+
+
+Example terminal output
+
+4️⃣ Nginx Service Management
+Command	Description
+sudo systemctl restart nginx	Restart Nginx
+sudo systemctl stop nginx	Stop Nginx
+systemctl status nginx.service	Check status
+
+💡 Tip: Use sudo journalctl -u nginx -f to follow live logs.
+
+5️⃣ How Predator Aurora Works
+
+Nginx acts as a reverse proxy for the project directory.
+
+Requests to http://127.0.0.1 or server IP route to /home/raja/predator/wgdashboard.
+
+Predator Aurora responds with JSON status or dashboard content.
+
+Systemd ensures Nginx is always running and starts on boot.
+
+
+Example dashboard view of Predator Aurora
+
+6️⃣ Directory Structure Example
+/home/raja/predator/wgdashboard/
+│
+├── index.html
+├── app.js
+├── styles/
+└── scripts/
+
+7️⃣ Optional: Docker Integration
+
+If you want to run additional services like Open Web UI:
+
+docker run -d -p 11437:8080 \
+  --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data \
+  --name open-webui \
+  --restart always \
+  ghcr.io/open-webui/open-webui:main
+
+
+Access via browser: http://YOUR_SERVER_IP:11437
+
+💡 Tip: Make sure your firewall allows port 11437.
+
+8️⃣ Notes & Best Practices
+
+✅ Always test Nginx config before reloading (nginx -t)
+
+✅ Use curl to check backend API responses
+
+⚠️ Ensure firewall allows port 80 for HTTP and 443 for HTTPS if needed
+
+⚡ Place screenshots in your repo for visual references
+
+💾 Keep your configuration in /etc/nginx/sites-available/ and enable via symbolic links
+
+9️⃣ References
+
+Nginx Official Docs
+
+Ubuntu Nginx Guide
+
+Made with ❤️ by Raja Ramees
+LinkedIn
+ | Company
+
+---
+
+### ✅ What makes this the **final version**:
+
+1. **Hero banner** at the top  
+2. **Author section with LinkedIn photo**  
+3. **Ubuntu / Nginx / Docker logos**  
+4. **Inline screenshots placeholders** for dashboard and terminal outputs  
+5. **Command tables, notes, tips, and warnings**  
+6. **Step-by-step installation, testing, and management**  
+7. **Docker integration instructions**  
+
+---
