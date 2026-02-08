@@ -5,7 +5,6 @@
 </p>
 
 <h2 align="center">Raja Ramees</h2>
-![Architecture Screenshot](https://raw.githubusercontent.com/Raja-Ramees/Predator-Aurora-Web-Server-Setup-Nginx/main/Screenshot%202026-02-08%20101449.png)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/raja-ramees-804a7b262">
@@ -100,7 +99,7 @@
 - Nginx installed  
 - Predator Aurora project files
   ![Aurora AI Architecture](https://raw.githubusercontent.com/Raja-Ramees/Predator-Aurora-Web-Server-Setup-Nginx/0d1854e0ffa0ab71fc9546f32244139e8e4dacd3/Screenshot%202026-02-08%20100643.png)
-
+  ![Architecture Screenshot](https://raw.githubusercontent.com/Raja-Ramees/Predator-Aurora-Web-Server-Setup-Nginx/main/Screenshot%202026-02-08%20101449.png)
 ![Ubuntu Logo](https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png)  
 ![Nginx Logo](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)  
 ![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.png)
