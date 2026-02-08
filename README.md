@@ -97,7 +97,8 @@
 - Ubuntu 24.04 LTS (Server or Desktop)  
 - Root or sudo privileges  
 - Nginx installed  
-- Predator Aurora project files  
+- Predator Aurora project files
+  ![Aurora AI Architecture](https://raw.githubusercontent.com/Raja-Ramees/Predator-Aurora-Web-Server-Setup-Nginx/0d1854e0ffa0ab71fc9546f32244139e8e4dacd3/Screenshot%202026-02-08%20100643.png)
 
 ![Ubuntu Logo](https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png)  
 ![Nginx Logo](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)  
