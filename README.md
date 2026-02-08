@@ -5,6 +5,7 @@
 </p>
 
 <h2 align="center">Raja Ramees</h2>
+![Architecture Screenshot](https://raw.githubusercontent.com/Raja-Ramees/Predator-Aurora-Web-Server-Setup-Nginx/main/Screenshot%202026-02-08%20101449.png)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/raja-ramees-804a7b262">
